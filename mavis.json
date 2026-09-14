@@ -1,0 +1,19 @@
+{
+  "name": "Project Lens",
+  "description": "A heads-up display for everything you are building. Finds your projects, then shows what each is written in, what state git is in, what it depends on, what you left a TODO about and what you touched this week. Opens straight onto a project if Mavis names one.",
+  "entry": "main.py",
+  "mode": "launch",
+  "parameters": {
+    "project": {
+      "type": "string",
+      "description": "The name of the project the user mentioned, if they named one. Leave it out if they just asked to see their projects."
+    }
+  },
+  "keywords": [
+    "open project lens",
+    "show me my projects",
+    "tell me about the mavis website project",
+    "what state is that project in"
+  ],
+  "category": "GitHub"
+}
